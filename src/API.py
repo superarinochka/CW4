@@ -3,7 +3,7 @@ import requests
 
 
 class API(ABC):
-    """ Абстрактный класс для работы с API"""
+    """ Абстрактный класс для работы с API сайтов"""
     @abstractmethod
     def get_vacancies(self, keyword):
         pass
