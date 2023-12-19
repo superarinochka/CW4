@@ -2,7 +2,6 @@ from API import HeadHunterAPI, SuperJobAPI
 from vacancy import Vacancy
 from jsonsaver import JSONSaver
 
-
 def user_interaction():
     """
     Функция для взаимодействия с пользователем
