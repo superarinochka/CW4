@@ -11,6 +11,7 @@ class API(ABC):
 
 class HeadHunterAPI(API):
     """Класс для работы с HeadHunter"""
+
     def __init__(self):
         self.url = "https://api.hh.ru/vacancies"
 
